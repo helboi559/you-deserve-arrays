@@ -2,7 +2,7 @@
 
 const prompt = require('prompt-sync')();
 
-let arr = JSON.parse(prompt('give me an array with a length of at least 10: '))
+let arr = JSON.parse(prompt('give me an array to see if first item is a num: '))
 
 if (typeof arr[0] === 'number') {
     console.log(true)
